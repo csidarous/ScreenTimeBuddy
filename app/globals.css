@@ -1,3 +1,7 @@
+/* Add this to your global CSS or in a relevant stylesheet */
+.main-content {
+  padding-top: 64px; /* Adjust this value based on the height of your navbar */
+}
 
 * {
   box-sizing: border-box;
