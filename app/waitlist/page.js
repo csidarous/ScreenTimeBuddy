@@ -11,10 +11,10 @@ export default function WaitlistForm() {
         name: '',
         email: '',
         excitedFeatures: {
-            cloudStorage: false,
-            customization: false,
-            collaboration: false,
-            offlineAccess: false,
+            monitoring: false,
+            screentimeStats: false,
+            customizablealerts: false,
+            detailedreports: false,
         },
         usageReason: '',
     });
@@ -35,7 +35,7 @@ export default function WaitlistForm() {
             setFormData({ ...formData, [name]: value });
         }
     };
-
+    
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
@@ -77,7 +77,7 @@ export default function WaitlistForm() {
             }}
         >
             <Typography variant="h4" gutterBottom align="center" sx={{ color: '#ffffff', mb: 3 }}>
-                Join the Pro Plan Waitlist
+                Join the App Waitlist
             </Typography>
             <Box component="form" onSubmit={handleSubmit}>
                 <TextField
@@ -119,46 +119,46 @@ export default function WaitlistForm() {
                     <FormControlLabel
                         control={
                             <Checkbox
-                                name="cloudStorage"
-                                checked={formData.excitedFeatures.cloudStorage}
+                                name="monitoring"
+                                checked={formData.excitedFeatures.monitoring}
                                 onChange={handleChange}
                                 sx={{ color: '#e0e0e0' }}
                             />
                         }
-                        label="Cloud Storage for Flashcards"
+                        label="Monitoring freind or family member"
                     />
                     <FormControlLabel
                         control={
                             <Checkbox
-                                name="customization"
-                                checked={formData.excitedFeatures.customization}
+                                name="screentimeStats"
+                                checked={formData.excitedFeatures.screentimeStats}
                                 onChange={handleChange}
                                 sx={{ color: '#e0e0e0' }}
                             />
                         }
-                        label="Customization Options"
+                        label="Screen Time Stats Dashboard"
                     />
                     <FormControlLabel
                         control={
                             <Checkbox
-                                name="collaboration"
-                                checked={formData.excitedFeatures.collaboration}
+                                name="customizablealerts"
+                                checked={formData.excitedFeatures.customizablealerts}
                                 onChange={handleChange}
                                 sx={{ color: '#e0e0e0' }}
                             />
                         }
-                        label="Collaboration Tools"
+                        label="Customizable Alerts"
                     />
                     <FormControlLabel
                         control={
                             <Checkbox
-                                name="offlineAccess"
-                                checked={formData.excitedFeatures.offlineAccess}
+                                name="detailedreports"
+                                checked={formData.excitedFeatures.detailedreports}
                                 onChange={handleChange}
                                 sx={{ color: '#e0e0e0' }}
                             />
                         }
-                        label="Offline Access"
+                        label="Weekly detailed reports"
                     />
                 </FormGroup>
 

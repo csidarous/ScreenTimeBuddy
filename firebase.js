@@ -10,16 +10,15 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDdH361SH3QznDX8FkMVqSmTEOaZfLQpLI",
-  authDomain: "screentime-buddie.firebaseapp.com",
-  projectId: "screentime-buddie",
-  storageBucket: "screentime-buddie.appspot.com",
-  messagingSenderId: "80722602543",
-  appId: "1:80722602543:web:d9a190b6822b9838fb74da",
-  measurementId: "G-C57V7281VX"
+  apiKey: "AIzaSyB4j0F5IIwTtc9HTCnSVtHs3Aw_dXpof0g",
+  authDomain: "screentime-buddie-v1.firebaseapp.com",
+  projectId: "screentime-buddie-v1",
+  storageBucket: "screentime-buddie-v1.appspot.com",
+  messagingSenderId: "95677609658",
+  appId: "1:95677609658:web:926a7820e5e65dd6d73483",
+  measurementId: "G-9SC9FC4HDH"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const firestore = getFirestore(app);
-export const analytics = getAnalytics(app);
+// export const analytics = getAnalytics(app);
