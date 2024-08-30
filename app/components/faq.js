@@ -4,18 +4,18 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const faqData = [
   {
-    question: "How does Screen Time Buddy help monitor screen time?",
-    answer: "Screen Time Buddy provides tools to track the amount of time spent on devices, allowing parents to monitor and manage screen usage effectively.",
+    question: "How does Screen Time Buddie help monitor screen time?",
+    answer: "Screen Time Buddie provides tools to track the amount of time spent on devices, allowing parents to monitor and manage screen usage effectively.",
     bgcolor: "primary.light",
   },
   {
     question: "Can I set daily screen time limits for my child?",
-    answer: "Yes, Screen Time Buddy allows you to set customizable daily screen time limits, ensuring your child maintains healthy screen habits.",
+    answer: "Yes, Screen Time Buddie allows you to set customizable daily screen time limits, ensuring your child maintains healthy screen habits.",
     bgcolor: "secondary.light",
   },
   {
-    question: "How can Screen Time Buddy improve our family's focus on real-life activities?",
-    answer: "Screen Time Buddy helps you set screen-free times and encourages your family to engage in real-life interactions and activities.",
+    question: "How can Screen Time Buddie improve our family's focus on real-life activities?",
+    answer: "Screen Time Buddie helps you set screen-free times and encourages your family to engage in real-life interactions and activities.",
     bgcolor: "warning.light",
   },
   // Add more FAQ items here as needed

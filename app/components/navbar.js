@@ -64,7 +64,7 @@ const NavBar = () => {
                 letterSpacing: '0.05em',
               }}
             >
-              ScreenTime Buddy
+              ScreenTime Buddie
             </Typography>
           </Box>
         </Button>
