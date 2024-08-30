@@ -1,10 +1,10 @@
-# Screen Time Buddy - Landing Page
+# Screen Time Buddie - Landing Page
 
 Welcome to the **Screen Time Buddy** landing page! This is the official website for Screen Time Buddy, an accountability app designed to help users manage and reduce their screen time, promoting productivity and healthier habits.
 
 ## 🚀 Website
 
-Visit the live website here: [Screen Time Buddy](https://screen-time-buddy.vercel.app) 
+Visit the live website here: [Screen Time Buddie](https://screen-time-buddy.vercel.app) 
 
 ## 🛠 Tech Stack
 
