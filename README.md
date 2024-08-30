@@ -4,7 +4,7 @@ Welcome to the **Screen Time Buddy** landing page! This is the official website 
 
 ## 🚀 Website
 
-Visit the live website here: [Screen Time Buddy](https://www.screentimebuddy.com)  
+Visit the live website here: [Screen Time Buddy](https://screen-time-buddy.vercel.app)  
 *(Replace with your actual URL)*
 
 ## 🛠 Tech Stack
